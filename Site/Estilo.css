@@ -1,0 +1,97 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif, 'Courier New', Courier, monospace; 
+} 
+#a {
+     text-align: center; 
+    } 
+    #wrap {
+         width: 960px; 
+         margin: auto;
+          background: rgb(255,182,193);
+           text-align: center;
+           color: white; 
+        } 
+        .flex-container { 
+            display: flex;
+         }
+         header nav ul 
+         { list-style: none; 
+            padding-left: 10px; 
+        } header nav ul li 
+        { display:inline-block; 
+            margin-right: 10px;
+         }
+          header nav ul li a
+          { 
+              font-size: 18px;
+               color:rgb(255, 255, 255);
+                text-decoration:none;
+                text-align: center;
+             } 
+             header nav ul li a:hover
+              {
+                   text-decoration: underline;
+                 } 
+                 #opcoes 
+                 { width: 570px; 
+                    margin-left: 180px; 
+                    float: left;
+                 } 
+                 #opcoes nav ul
+                  { list-style: none; 
+                    text-align: center;
+                 } 
+                 #opcoes nav ul li
+                 { 
+                     display:inline-block; text-align: center; 
+                    } 
+                    #opcoes nav ul li a
+                    { 
+                        font-size: 18px; 
+                        color:rgb(255, 255, 255); 
+                        text-decoration:none; 
+                        text-align: center; 
+                    } 
+                    #opcoes nav ul li a:hover
+                    {
+                         text-decoration: underline;
+                         }
+                          #content 
+                          { 
+                              width: 600px; 
+                              margin-left: 175px;
+                               margin-top: 120px; 
+                               background: rgb(224,255,255); 
+                               box-align: center; 
+                               color: black;
+                            } 
+                            #sidebar {
+                                width: 280px;
+                               margin-right: 0px;
+                               margin-top: -620px;
+                                 background:rgb(255,182,193);
+                                 float: right;                            
+                                }
+                                #sidebar ul {
+                                 list-style: none;
+                                 background: rgb(255,182,193)
+                                }
+                                #sidebar ul form option  {
+                                 color: rgb(0, 0, 0);
+                                 text-decoration: none;
+                                }
+                          #formulario{
+                            text-align:center;
+                            margin-left: 180px;
+                           margin-top: -20px;
+                            color:black;
+                            background: rgb(255,182,193);
+                          }
+                              
+                                footer {
+                                     clear: both;
+                                     background: rgb(255,182,193)
+                                 } 
+                                 label,input{ 
+                                   display: block;
+                                 }
