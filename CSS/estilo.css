@@ -184,10 +184,10 @@ body {
 
   .chat {
     position: center;
-    background-color: rgb(252, 209, 223);
-    border: 28px auto rgb(252, 209, 223);
+    background-color: rgb(255,182,193);
+    border: 28px auto rgb(255,182,193);
     width: 750px;
-    height: 625px;
+    height: 650px;
     padding: 6px;
     overflow: 50;
     
@@ -210,8 +210,6 @@ body {
   .chat .msg-l {
     text-align: left;
   }
-  
-  
   
   footer{
     background: #FFB6C1
