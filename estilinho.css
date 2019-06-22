@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, Helvetica, sans-serif,'Courier New', Courier, monospace;
+    text-align: center;
+  } 
+  
+  #wrap {
+    width: 1100px;
+    height: 1040px;
+    margin: auto;
+    background: #FFB6C1;
+    color:white;
+    list-style: none;  
+  }
+    
+  h1, h2, h3, h4 {
+    font-style: Arial;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  #corpo {
+    margin: 50px 100px;
+  }
+  
+  #pesquisa{
+    text-align:center;
+    margin-left: 180px;
+    margin-top: -20px;
+    color:black;
+    background: rgb(255,182,193);
+  }
+  
+  #formulario {
+    text-align: left;
+    margin: 50 100px;
+  }
+  
+  #formulario .direita {
+    float: right;
+    width:50%;
+  }
+  
+  #formulario .esquerda {
+    float: left;
+    width:50%;
+  }
+  
+  #formulario label {
+    line-height: 100px;
+    text-align:left;
+    color:#363636;
+  }
+  
+  #formulario input {
+    padding: 9px;
+    border: 1px solid rgb(211, 179, 179);
+    background: #E8EFE4;
+    border-radius: 4px;
+    color:#363636;
+  }
+  
+  #formulario select {
+    padding: 4px;
+    border: 1px solid rgb(250, 255, 207);
+    background: rgb(238, 239, 228);
+    border-radius: 9px;
+    color:#363636;
+  }         
+  
+  #formulario .botao {
+    cursor: pointer;
+    text-align: left;
+    margin: auto;
+    color: rgb(43, 38, 38);
+    background-color: #FFB6C1;
+  }
+  
+  #formulario .botao:hover {
+    background-color: #ffe3ee;
+  }
+  
+  #copy {
+    color: #363636;
+    text-align: right;
+    margin: 50px 150px;
+  }
+  
+  header nav ul { 
+    list-style: none; 
+    padding-left: 10px; 
+  } 
+  
+  header nav ul li {
+    display:inline-block; 
+    margin-right: 10px;
+  }
+  
+  header nav ul li a {
+   font-size: 18px;
+   color:blanchedalmond;
+   text-decoration:none;
+   text-align: center;
+  }
+  
+  header nav ul li a:hover {
+   text-decoration: underline;
+  }
+  
+  #minhasavaliacoes{
+    text-align: lefter;
+    margin: 50 100px;
+    list-style: none;
+    background: #FFB6C1
+  }
+        
+  #layout{
+    text-align: center;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  .flex-container { 
+    display: flex;
+  }
+  
+  #opcoes{
+    width: 570px; 
+    margin-left: 180px;  
+    float: left;
+  } 
+  
+  #opcoes nav ul{ 
+    list-style: none; 
+    text-align: center;
+  } 
+                   
+  #opcoes nav ul li{ 
+    display:inline-block; text-align: center; 
+  } 
+                  
+  #opcoes nav ul li a{ 
+    font-size: 18px; 
+    color:rgb(255, 255, 255); 
+    text-decoration:none; 
+    text-align: center; 
+  } 
+                      
+  #opcoes nav ul li a:hover{
+    text-decoration: underline;
+  }
+                            
+  #content{ 
+    width: 600px; 
+    margin-left: 175px;
+    margin-top: 120px; 
+    background: rgb(224,255,255); 
+    box-align: center; 
+    color: black;
+  } 
+                              
+  #sidebar{
+    width: 280px;
+    margin-right: 0px;
+    margin-top: -620px;
+    background:rgb(255,182,193);
+    float: right;                            
+  }
+                                  
+  #sidebar ul {
+    list-style: none;
+    background: rgb(255,182,193)
+  }
+                                  
+  #sidebar ul form option  {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  #a {
+    text-align: center; 
+  } 
+  
+  footer{
+    background: #FFB6C1
+  }
