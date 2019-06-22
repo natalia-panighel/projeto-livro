@@ -181,6 +181,37 @@ body {
   #a {
     text-align: center; 
   } 
+
+  .chat {
+    position: center;
+    background-color: rgb(252, 209, 223);
+    border: 28px auto rgb(252, 209, 223);
+    width: 750px;
+    height: 625px;
+    padding: 6px;
+    overflow: 50;
+    
+  }
+  
+  .chat p {
+    background-color: rgba(247, 150, 239, 0.671);
+    padding: 5px;
+  }
+  
+  .chat p strong {
+    display: block;
+    font-size: 15px;
+  }
+  
+  .chat .msg-r {
+    text-align: right;
+  }
+  
+  .chat .msg-l {
+    text-align: left;
+  }
+  
+  
   
   footer{
     background: #FFB6C1
